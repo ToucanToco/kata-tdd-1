@@ -2,12 +2,8 @@ describe('My first describe', function() {
   it('my first test', function() {
     true.should.be.true;
   });
-
-  it('my second test that succeed', function() {
-    (1).should.equal(1);
-  });
-
-  it('my third test that fails', function() {
-    (1).should.equal(2);
-  });
 });
+
+// require all modules ending in ".spec.js" from the src directory
+const testsContext = require.context('../src', true, /.spec$/)
+testsContext.keys().forEach(testsContext)
