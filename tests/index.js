@@ -1,13 +1,13 @@
 describe('My first describe', function() {
   it('my first test', function() {
-    console.log('Yeah!');
+    true.should.be.true;
   });
 
   it('my second test that succeed', function() {
-    return
+    (1).should.equal(1);
   });
 
   it('my third test that fails', function() {
-    throw new Error('Failed miserably :"(')
+    (1).should.equal(2);
   });
 });
