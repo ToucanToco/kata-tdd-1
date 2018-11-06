@@ -2,7 +2,7 @@
   "name": "tdd-1",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma-conf.js"
+    "test": "./node_modules/karma/bin/karma start"
   },
   "dependencies": {
     "webpack": "^4.25.1"
