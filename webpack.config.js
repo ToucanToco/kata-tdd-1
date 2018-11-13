@@ -8,5 +8,13 @@ module.exports = {
         use: ['coffee-loader']
       }
     ]
+  },
+  resolve: {
+    extensions: [
+      '.coffee',
+      '.js',
+      '.json',
+      '.cson',
+    ]
   }
 }
