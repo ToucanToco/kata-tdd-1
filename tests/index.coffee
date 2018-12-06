@@ -1,3 +1,6 @@
+sinonChai = require 'sinon-chai'
+chai.use sinonChai
+
 describe 'My first describe', ->
   it 'my first test', ->
     true.should.be.true
